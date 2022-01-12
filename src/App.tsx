@@ -1,6 +1,11 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 
+/*
+  сделал события скрытия и удаления на window, т.к. в задании не было сказано,
+  что нужно события сделать именно при нажатии на текст
+*/
+
 export default function App() {
     const [opacityText, setOpacityText] = useState<boolean>(true);
     const [displayText, setDisplayText] = useState<boolean>(true);

@@ -29,17 +29,14 @@ export default function App() {
 
     return (
         <main>
-            <div
-                id="text"
-                className={`${!opacityText ? "opacity-0" : ""}${
-                    !displayText ? " display-none" : ""
-                }`}
-            >
-                <h2>Trifonov Igor</h2>
-                <span>
-                    Начинающий web-программист / Junior Frontend Developer
-                </span>
-            </div>
+            {displayText && (
+                <div id="text" className={!opacityText ? "opacity-0" : ""}>
+                    <h2>Trifonov Igor</h2>
+                    <span>
+                        Начинающий web-программист / Junior Frontend Developer
+                    </span>
+                </div>
+            )}
         </main>
     );
 }

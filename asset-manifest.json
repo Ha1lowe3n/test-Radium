@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/radium-test/static/css/main.f44b27de.css",
+    "main.js": "/radium-test/static/js/main.d7083824.js",
+    "index.html": "/radium-test/index.html",
+    "main.f44b27de.css.map": "/radium-test/static/css/main.f44b27de.css.map",
+    "main.d7083824.js.map": "/radium-test/static/js/main.d7083824.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f44b27de.css",
+    "static/js/main.d7083824.js"
+  ]
+}
